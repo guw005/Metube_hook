@@ -1,0 +1,147 @@
+.outter-video-show {
+    display: flex;
+}
+
+.video-show {
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 65%;
+}
+
+.video-show-video {
+    width: 100%;
+    height: 33vw;
+    background-color: black;
+}
+
+.video-show-video-info {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 8px;
+    border-bottom: 1px solid lightgray;
+}
+
+.video-show-views-and-time {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #606060;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.video-show-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #0d0d0d;
+}
+
+.video-show-author {
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid lightgray;
+}
+
+.video-show-author-pic {
+    height: 48px;
+    width: 48px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right:18px;
+    
+}
+
+.video-show-author-and-description {
+    display: flex;
+    flex-direction: column;
+    width: 87%;
+}
+
+.video-show-author-username {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #0D0D0D;
+    font-weight: bold;
+}
+
+.video-show-video-description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #0D0D0D;
+}
+
+.related-video-index {
+    width: 35%;
+    margin-right: 24px;
+    border-top: 1px solid lightgray;
+}
+
+.video-show-author-edit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.outer-video-show {
+    display: flex;
+}
+
+.related-video-index .video-index-item {
+    min-height: 102px;
+    height: 102px;
+    flex-direction: row;
+    cursor: pointer;
+    margin: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    min-width: 300px;
+}
+
+.related-video-index .video-index-thumbnail {
+    width: 168px;
+    height: 94px;
+}
+
+.related-video-index .video-index-info {
+    width: 57%;
+    margin-top: 0px;
+    margin-left: 4px;
+}
+
+.related-video-index .video-index-title {
+    margin-bottom: 4px;
+}
+
+.related-video-index .video-index-author {
+    margin-top: 0px;
+}
+
+.up-next-container {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.up-next {
+    font-size: 16px;
+    color: #0D0D0D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.edit-video-button {
+    width: 105.5px;
+    height: 36px;
+    background-color:#c00;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.edit-video-text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}

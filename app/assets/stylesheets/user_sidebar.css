@@ -1,0 +1,95 @@
+.user-sidebar {
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    padding: 0 16px;
+    position: relative;
+}
+
+.user-sidebar-profile{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    top: 80%;
+    right: 16px;
+}
+
+.user-profile-button {
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.show {
+    display: block;
+}
+
+.user-sidebar-profile-info {
+    border: 1px solid lightgrey;
+    display: flex;
+    /* flex-direction: column; */
+    border-top: none;
+    height: 70px;
+    width: 264px;
+    padding: 16px;
+}
+
+.user-sidebar-profile-info-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-sidebar-profile-info-image {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.user-sidebar-profile-info-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.user-sidebar-profile-info-email {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.user-sidebar-function {
+    border: 1px solid lightgrey;
+    border-top: none;
+    padding: 8px 0px;
+}
+
+.user-sidebar-function-signout {
+    display: flex;
+    padding: 0px 36px 0px 16px;
+    height: 40px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.user-sidebar-function :hover{
+    background-color: rgb(241, 241, 241)
+}
+
+.user-sidebar-signout-image {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+}
+
+.user-side-bar-signout-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}

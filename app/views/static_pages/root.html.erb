@@ -1,0 +1,27 @@
+<% if logged_in? %>
+  <script id="bootstrap-current-user" type="text/javascript">
+  	window.currentUser = <%= render("api/users/user.json.jbuilder",
+  		user: current_user).html_safe %>
+  </script>
+<% end %>
+
+<script>
+  window.signinPic = "<%= image_url('profile_icon.png') %>";
+  window.signoutPic = "<%= image_url('sign_out_icon.png') %>";
+  window.hamburgerPic = "<%= image_url('hamburger.png') %>";
+  window.videoUploadPic = "<%= image_url('video_upload.png') %>";
+  window.youtubePic = "<%= image_url('youtube.png') %>";
+  window.homePic = "<%= image_url('home_icon.png') %>";
+  window.githubPic = "<%= image_url('github_icon.png') %>";
+  window.photoPic = "<%= image_url('photo_icon.png') %>";
+  window.uploadPic = "<%= image_url('upload_icon.png') %>";
+  window.likeButton = "<%= image_url('like_button.png') %>";
+  window.dislikeButton = "<%= image_url('dislike_button.png') %>";
+  window.commentEdit = "<%= image_url('comment_edit.png') %>";
+  window.commentDelete = "<%= image_url('comment_delete.png') %>";
+  window.noResult = "<%= image_url('no_result.png') %>";
+  window.searchIcon = "<%= image_url('search_icon.png') %>";
+  window.errorIcon = "<%= image_url('error_icon.png') %>"
+</script>
+
+<main id="root"></main>

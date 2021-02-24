@@ -1,0 +1,103 @@
+.create-comment-container {
+    margin-bottom: 32px;
+    display: flex;
+}
+
+.create-comment-pic-container {
+    margin-right: 16px;
+}
+
+.comment-body-input-container {
+    width: 100%;
+}
+
+.comment-body-textarea {
+  width: 100%;
+  display: block;
+  border: none;
+  padding: 5px 0;
+  border-bottom: solid 1px rgb(231, 231, 231);
+  transition: all 0.7s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 96%,
+    black 4%
+  );
+  background-position: -1000px 0;
+  background-size: 1000px 100%;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.comment-body-textarea:focus {
+  box-shadow: none;
+  outline: none;
+  background-position: 0 0;
+}
+
+.create-comment-pic {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    /* margin-right:18px; */
+}
+
+.edit-comment-container {
+    width: 100%;
+}
+
+#comment-input-buttons {
+    display: none;
+    padding-top: 8px;
+    /* display: flex; */
+    justify-content: flex-end;
+}
+
+#edit-comment-input-buttons {
+    /* display: none; */
+    padding-top: 8px;
+    display: flex;
+    /* display: flex; */
+    justify-content: flex-end;
+}
+
+.comment-cancel-button {
+    width: 85px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.comment-submit-button {
+    width: 100px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #065fd4;
+    /* color: white; */
+    border-radius: 5%;
+}
+
+.edit-comment-submit-button {
+    width: 70px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #065fd4;
+    /* color: white; */
+    border-radius: 5%;
+}
+
+.comment-submit-button input, .edit-comment-submit-button input {
+    background: none;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

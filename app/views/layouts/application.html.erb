@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Metube</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <script src="https://apis.google.com/js/platform.js"  async defer></script>
+    <meta name="google-signin-client_id" content="915909549025-bkjrnktkij7a19urabsafcvcefjktipp.apps.googleusercontent.com">
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
